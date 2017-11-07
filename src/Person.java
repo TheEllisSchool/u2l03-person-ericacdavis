@@ -43,6 +43,11 @@ public class Person {
 		g.setColor(eyeColor);
 		g.fillOval(x - 10, y - 50, 10, 10);
 		g.fillOval(x + 10, y - 50, 10, 10);
+		//kilt
+		g.setColor(Color.GREEN);
+		int polygon1[]= {x, x+50, x-50};
+		int polygon2[] = {y+150,y+200, y+200};
+		g.fillPolygon(polygon1, polygon2, 3);
 	}
 	
 }

@@ -9,6 +9,7 @@ public class Game extends DrawableAdapter {
 	
 	static Person mrsLombardi = new Person(Color.GREEN, BROWN, 300, 100,150);
 	static Person leah = new Person(Color.CYAN, BROWN,250,400,150);
+	static Person yumika = new Person(Color.CYAN, BROWN,250,400,150);
 	
 	public static void main(String[] args) {
 		showGameBoard(gb);
@@ -17,6 +18,7 @@ public class Game extends DrawableAdapter {
 	public void draw(Graphics g) {
 		mrsLombardi.show(g);
 		leah.show(g);
+		yumika.show(g);
 	}
 	
 }
